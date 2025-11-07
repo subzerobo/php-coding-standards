@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Mollie\PhpCodingStandards\PhpCsFixer;
 
 /*
- * Last updated for php-cs-fixer version: 3.64.0
+ * Last updated for php-cs-fixer version: 3.89.2
  */
 class Rules
 {
@@ -217,7 +217,7 @@ class Rules
             'types_spaces' => [
                 'space' => 'single', // Added to keep previous behaviour with the cs-fixer 3.1.0 upgrade.
             ],
-            'visibility_required' => [
+            'modifier_keywords' => [
                 'elements' => [
                     'const', 'method', 'property',
                 ],
